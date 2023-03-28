@@ -92,7 +92,7 @@ def withdraw():
       withdraws_total += amount_copy
       withdraws += 1
       print("Novo saldo:", format_balance(balance))
-      input('Precione ENTER para continuar')
+      input('Pressione ENTER para continuar')
       break
     else:
       print("ERRO!")
@@ -174,7 +174,7 @@ def window1():
     exit()
   else:
     print("Opção não existente!")
-    input('Precione ENTER para continuar')
+    input('Pressione ENTER para continuar')
   os.system('cls' if os.name == 'nt' else 'clear')
 
 # main
